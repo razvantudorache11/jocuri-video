@@ -1,0 +1,127 @@
+html { 
+  background: url(imagini/bgmain.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul {
+    list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.info{
+    font-size: 20px;
+    
+}
+.lt{
+    text-decoration: none;
+}
+.title{
+position:relative;
+height:75px;
+padding-top:20px;
+line-height:25px;
+overflow:hidden;
+z-index:2;
+background-color:#333;
+margin:0px;
+padding:0px;
+text-align: center;
+font-size:20px;
+color: #4CAF50;
+width:100%;
+display:block;
+    
+}
+.content {
+    background: url(imagini/bgwrite.jpg);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    font-size: 30px;
+    left: 100px;
+    margin: 0px;
+    padding: 2px;
+}
+.descp{
+    color: black;
+}
+
+.imgwow{
+    position: relative;
+}
+.imgzelda{
+    position: relative;
+}
+.paragraf{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px
+    font-size: 25px;
+}
+}
+
+.previous {
+  color: black;
+}
+
+.next {
+ color: white;
+  
+}
+.pagenums {
+    margin-left: 35%;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+}
+ul.a {
+  list-style-type: circle;
+    list-style: none;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 460px;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 460px;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+    color: aqua
+}
+
